@@ -3,3 +3,7 @@ keyCandidat: be.civadis.recrutMS.candidat
 keyPoste: be.civadis.recrutMS.poste
 exchangeName: be.civadis.recrutMS.exchange
 retryExchangeName: be.civadis.recrutMS.retryExchange
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
