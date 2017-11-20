@@ -1,19 +1,5 @@
 ---
-spring:
-  cloud:
-    config:
-      server:
-        #git:
-        #  uri: https://github.com/kennyk65/Microservices-With-Spring-Student-Files
-        #  searchPaths: ConfigData
-        # "native" is used when the native profile is active, for local tests with a classpath repo:
-        native:
-         searchLocations: classpath:offline-repository/
-server:
-  port: 8001
-
-messaging:
-  keyCandidat: be.civadis.recrutMS.candidat
-  keyPoste: be.civadis.recrutMS.poste
-  exchangeName: be.civadis.recrutMS.exchange
-  retryExchangeName: be.civadis.recrutMS.retryExchange
+keyCandidat: be.civadis.recrutMS.candidat
+keyPoste: be.civadis.recrutMS.poste
+exchangeName: be.civadis.recrutMS.exchange
+retryExchangeName: be.civadis.recrutMS.retryExchange
